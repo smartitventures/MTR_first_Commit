@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:id="@+id/ll_plate"
+    android:background="@drawable/plate"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_marginTop="10dp"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_plate_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="2636234"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="MAKE"
+                android:textSize="22sp"
+                android:textColor="@color/coloryellow"
+
+                />
+            <TextView
+                android:id="@+id/tv_make"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AUDI"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:maxLength="8"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="YEAR"
+                android:textSize="22sp"
+                android:textColor="@color/coloryellow"
+
+                />
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2014"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="MODEL"
+                android:textSize="22sp"
+                android:textColor="@color/coloryellow"
+
+                />
+            <TextView
+                android:id="@+id/tv_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A4"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
